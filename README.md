@@ -1,8 +1,7 @@
 # How to Use
 1. make a temp dir like Ted_assignment  
     ```
-    $ mkdir Ted_assignment   
-    $ cd Ted_assignment
+    $ mkdir Ted_assignment && cd Ted_assignment  
     ```
 
 2. Download source from Git  
@@ -13,8 +12,7 @@
 3. Set virtual envitonment with [Virtualenv](https://virtualenv.pypa.io/en/stable/) or [pipenv](https://github.com/pypa/pipenv)  
     ```
     ex.)  
-    $ virtualenv venv  
-    $ source venv/bin/activate  
+    $ virtualenv venv && source venv/bin/activate  
     ```
 
 4. Install requirements

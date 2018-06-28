@@ -30,8 +30,13 @@
     $ ./runserver.sh
     ```
 
-8. Test & Run with bash  
+8. Test & Run with bash  (included test)  
     ```
     $ ./go.sh
+    ```
+
+    * if you want to test  
+    ```
+    python3 manage.py test
     ```
 

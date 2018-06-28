@@ -14,7 +14,7 @@
 
 4. Download source from Git  
     ```
-    $ git clone 
+    $ git clone https://github.com/YoungsoonLee/Goleague.git
      ```
 
 5. Change go.sh file

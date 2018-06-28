@@ -29,7 +29,7 @@
 
 7. run server  
     ```
-    $ python3 manage.py runserver
+    $ ./runserver.sh
     ```
 
 8. Test & Run with bash  

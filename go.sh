@@ -15,7 +15,7 @@ echo ">> patah a todos with id 1"
 curl http://127.0.0.1:8000/todos/1/ --header "Content-Type: application/json" -d '{"text":"test111", "due_date": "2018-10-10 00:00:00", "done_state": "True"}' -X PATCH | python3 -m "json.tool"
 
 echo ">> delete a todos with id 1"
-curl http://127.0.0.1:8000/todos/1/ - X DELETE | python3 -m "json.tool"
+curl http://127.0.0.1:8000/todos/1/ -X DELETE | python3 -m "json.tool"
 
 
 echo ">> filter a todos with done_state=True"

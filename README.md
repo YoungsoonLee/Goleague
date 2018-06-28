@@ -17,17 +17,22 @@
     $ git clone https://github.com/YoungsoonLee/Goleague.git
      ```
 
-5. Change go.sh file
+5. Install requirements
+    ```
+    $ pip3 install -r requirements.txt
+    ```
+
+6. Change go.sh file
     ```
     $ chmod 0700 go.sh
     ```
 
-6. run server  
+7. run server  
     ```
     $ python3 manage.py runserver
     ```
 
-7. Test & Run with bash  
+8. Test & Run with bash  
     ```
     $ ./go.sh
     ```
